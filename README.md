@@ -23,7 +23,7 @@
   </tr>
 </table>
 
-## Features:
+    <h2>Features:</h2>
 <ul>
   <li>One</li>
   <li>Two</li>
