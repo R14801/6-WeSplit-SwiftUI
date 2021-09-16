@@ -17,3 +17,9 @@
     <td><p>Splash Screen Dark</p></td>
   </tr>
 </table>
+
+##Features:
+<ul>
+  <li>One</li>
+  <li>Two</li>
+  </ul>
