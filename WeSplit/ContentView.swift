@@ -8,9 +8,38 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var splashFinish = false
+    @State var showOnBoarding = false
+    let haptics = UIImpactFeedbackGenerator(style: .medium)
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        if !splashFinish {
+            SplashScreen()
+                .onAppear() {
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.7){
+                        withAnimation(.linear(duration: 1)){
+                            splashFinish.toggle()
+                            
+                        
+                        }
+                    }
+                }
+        }
+        else {
+            NavigationView {
+                CalculationView()
+                .onAppear(perform: {
+                    self.showOnBoarding.toggle()
+                })
+                .sheet(isPresented: $showOnBoarding, content: {
+                    OnBoardingView()
+                        .onAppear(perform: {
+                            haptics.impactOccurred()
+                        })
+                })
+            }
+            
+        }
+        
     }
 }
 
