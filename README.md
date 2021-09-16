@@ -41,13 +41,13 @@
   <thead>
   <tr>
     <th>
-      <img src="Resources/OnBoarding-Light.png" height=500>
+      <img src="Resources/OnBoarding-Light.png" height=600>
     </th>
     <th>
-      <img src="Resources/Main-Light.png" height=500>
+      <img src="Resources/Main-Light.png" height=600>
     </th>
     <th>
-      <img src="Resources/People-Light.png" height=500>
+      <img src="Resources/People-Light.png" height=600>
     </th>
   </tr>
   </thead>
@@ -61,13 +61,13 @@
   <thead>
   <tr>
     <th>
-      <img src="Resources/OnBoarding-Dark.png" height=500>
+      <img src="Resources/OnBoarding-Dark.png" height=600>
     </th>
     <th>
-      <img src="Resources/Main-Dark.png" height=500>
+      <img src="Resources/Main-Dark.png" height=600>
     </th>
     <th>
-      <img src="Resources/People-Dark.png" height=500>
+      <img src="Resources/People-Dark.png" height=600>
     </th>
   </tr>
   </thead>
