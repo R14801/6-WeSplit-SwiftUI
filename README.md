@@ -13,7 +13,7 @@
     </th>
   </tr>
   <tr>
-    <td><p>Splash Screen</p></td>
-    <td><p>Splash Screen</p></td>
+    <td><p>Splash Screen Light</p></td>
+    <td><p>Splash Screen Dark</p></td>
   </tr>
 </table>
