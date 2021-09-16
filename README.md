@@ -5,7 +5,11 @@
 
 <table>
   <tr>
-    <th><img src="Resources/Splash-Light.png" height=400></th>
-    <th><img src="Resources/Splash-Light.png" height=400></th>
+    <th>
+      <img src="Resources/Splash-Light.png" height=400>
+    </th>
+    <th>
+      <img src="Resources/Splash-Dark.png" height=400>
+    </th>
   </tr>
-  </table>
+</table>
