@@ -12,4 +12,8 @@
       <img src="Resources/Splash-Dark.png" height=400>
     </th>
   </tr>
+  <tr>
+    <td><p>Splash Screen</p></td>
+    <td><p>Splash Screen</p></td>
+  </tr>
 </table>
