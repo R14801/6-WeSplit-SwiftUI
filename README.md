@@ -6,10 +6,10 @@
 <table>
   <tr>
     <th>
-      <img src="Resources/Splash-Light.png" height=400>
+      <img src="Resources/Splash-Light.png" height=450>
     </th>
     <th>
-      <img src="Resources/Splash-Dark.png" height=400>
+      <img src="Resources/Splash-Dark.png" height=450>
     </th>
   </tr>
   <tr>
