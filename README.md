@@ -58,6 +58,8 @@
     <td><p>People Selection Screen</p></td>
   </tr>
   </tbody>
+    </table>
+    <table>
   <thead>
   <tr>
     <th>
