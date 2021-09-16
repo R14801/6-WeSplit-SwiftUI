@@ -25,8 +25,10 @@
     
 ## Features:
 <ul>
-  <li>One</li>
-  <li>Two</li>
+  <li>Split a bill among a group of people.</li>
+  <li>Select the number of people to split the bill among.</li>
+  <li>Select a tip percentage that you would like to include.</li>
+  <li>View complete breakdown of amount and tip.</li>
   </ul>
   </body>
 </html>
