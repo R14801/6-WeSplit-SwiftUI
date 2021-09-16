@@ -49,9 +49,6 @@
     <th>
       <img src="Resources/People-Light.png" height=450>
     </th>
-    <th>
-      <img src="Resources/Splash-Light.png" height=450>
-    </th>
   </tr>
   </thead>
   <tbody>
@@ -59,7 +56,6 @@
     <td><p>OnBoarding Screen</p></td>
     <td><p>Main Screen</p></td>
     <td><p>People Selection Screen</p></td>
-    <td><p>Splash Screen</p></td>
   </tr>
   </tbody>
   <thead>
@@ -73,9 +69,6 @@
     <th>
       <img src="Resources/People-Dark.png" height=450>
     </th>
-    <th>
-      <img src="Resources/Splash-Dark.png" height=450>
-    </th>
   </tr>
   </thead>
   <tbody>
@@ -83,7 +76,6 @@
     <td><p>OnBoarding Screen (Dark Mode)</p></td>
     <td><p>Main Screen (Dark Mode)</p></td>
     <td><p>People Selection Screen (Dark Mode)</p></td>
-    <td><p>Splash Screen (Dark Mode)</p></td>
   </tr>
   </tbody>
 </table>
