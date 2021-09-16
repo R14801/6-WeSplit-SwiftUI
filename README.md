@@ -90,10 +90,22 @@
     
 ## Video Walkthrough:
     
-<video width="320" height="240" controls>
-  <source src="Resources/Video-Showcase-Light.mp4" type="video/mp4">
+<!-- <video controls>
+<source src="Resources/Video-Showcase-Light.mp4" type="video/mp4">
+  Your browser does not support videos.
 </video>
-    [![SC2 Video](https://img.youtube.com/vi/--b-9HrKK6w/0.jpg)](http://www.youtube.com/watch?v=--b-9HrKK6w)
     
+<ul>
+<li>https://www.youtube.com/watch?v=yx8yns_SDpc</li>
+</ul>
+    
+
+ -->
+https://user-images.githubusercontent.com/53140446/133642260-4412f2a4-7d86-4ba7-aa4d-3ba213401b2f.mp4
+
+
+
+https://user-images.githubusercontent.com/53140446/133642376-6cf9b5dd-c281-4827-8b78-14c8856757fb.mp4
+
   </body>
 </html>
