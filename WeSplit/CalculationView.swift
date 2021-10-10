@@ -38,8 +38,17 @@ struct CalculationView: View {
 //        NavigationView {
             Form{
                 Section(header: Text("Details")) {
-                    TextField("Enter the amount", text: $checkAmount)
-                        .keyboardType(.decimalPad)
+                    HStack {
+                        TextField("Enter the amount", text: $checkAmount)
+                            .keyboardType(.decimalPad)
+                        
+                        Button(action: {
+                            self.hideKeyboard()
+                        }, label: {
+                            Text("Done")
+                                .font(.caption)
+                        })
+                    }
                     
                     Picker("Number of People", selection: $noOfPeople) {
                         ForEach(2..<100) { i in

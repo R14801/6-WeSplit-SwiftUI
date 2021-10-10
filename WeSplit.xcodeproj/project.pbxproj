@@ -11,9 +11,12 @@
 		0415363B26EF391E003F5836 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0415363A26EF391E003F5836 /* ContentView.swift */; };
 		0415363D26EF3920003F5836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0415363C26EF3920003F5836 /* Assets.xcassets */; };
 		0415364026EF3920003F5836 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0415363F26EF3920003F5836 /* Preview Assets.xcassets */; };
+		0417BABA2712C05900C6EC42 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417BAB92712C05900C6EC42 /* Extensions.swift */; };
 		041F3A7426F2FB96004C84C1 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F3A7326F2FB96004C84C1 /* OnBoardingView.swift */; };
 		041F3A7626F2FB9F004C84C1 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F3A7526F2FB9F004C84C1 /* SplashScreen.swift */; };
 		04E640C126F0864E001801F4 /* CalculationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E640C026F0864E001801F4 /* CalculationView.swift */; };
+		04E9611A270AC02B0058EFF9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04E96118270AC02B0058EFF9 /* Model.xcdatamodeld */; };
+		04E9611C270AC31A0058EFF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9611B270AC31A0058EFF9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +26,12 @@
 		0415363C26EF3920003F5836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0415363F26EF3920003F5836 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0415364126EF3920003F5836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0417BAB92712C05900C6EC42 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		041F3A7326F2FB96004C84C1 /* OnBoardingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		041F3A7526F2FB9F004C84C1 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		04E640C026F0864E001801F4 /* CalculationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationView.swift; sourceTree = "<group>"; };
+		04E96119270AC02B0058EFF9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		04E9611B270AC31A0058EFF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,8 @@
 		0415362C26EF391E003F5836 = {
 			isa = PBXGroup;
 			children = (
+				0417BAB92712C05900C6EC42 /* Extensions.swift */,
+				04E9611B270AC31A0058EFF9 /* AppDelegate.swift */,
 				0415363726EF391E003F5836 /* WeSplit */,
 				0415363626EF391E003F5836 /* Products */,
 			);
@@ -61,6 +69,7 @@
 				0415363826EF391E003F5836 /* WeSplitApp.swift */,
 				041F3A7526F2FB9F004C84C1 /* SplashScreen.swift */,
 				0415363A26EF391E003F5836 /* ContentView.swift */,
+				04E96118270AC02B0058EFF9 /* Model.xcdatamodeld */,
 				041F3A7326F2FB96004C84C1 /* OnBoardingView.swift */,
 				04E640C026F0864E001801F4 /* CalculationView.swift */,
 				0415363C26EF3920003F5836 /* Assets.xcassets */,
@@ -150,8 +159,11 @@
 				041F3A7626F2FB9F004C84C1 /* SplashScreen.swift in Sources */,
 				0415363B26EF391E003F5836 /* ContentView.swift in Sources */,
 				041F3A7426F2FB96004C84C1 /* OnBoardingView.swift in Sources */,
+				0417BABA2712C05900C6EC42 /* Extensions.swift in Sources */,
 				04E640C126F0864E001801F4 /* CalculationView.swift in Sources */,
+				04E9611C270AC31A0058EFF9 /* AppDelegate.swift in Sources */,
 				0415363926EF391E003F5836 /* WeSplitApp.swift in Sources */,
+				04E9611A270AC02B0058EFF9 /* Model.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +352,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04E96118270AC02B0058EFF9 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04E96119270AC02B0058EFF9 /* Model.xcdatamodel */,
+			);
+			currentVersion = 04E96119270AC02B0058EFF9 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0415362D26EF391E003F5836 /* Project object */;
 }
